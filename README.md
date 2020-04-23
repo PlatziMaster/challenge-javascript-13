@@ -9,8 +9,8 @@ Hay muchas formas de controlar los argumentos de una función en JS, la idea del
 function print(a, b) {
   return `${a} - ${b}`;
 }
-print(1, 3) // 1 - 3
-flip(print(1, 3)) // 3 - 1
+print(1,3) // 1 - 3
+flip(print)(1,3) // 3 - 1
 ```
 
 ### Instalación
