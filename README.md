@@ -1,6 +1,6 @@
 # Challenge - Combinator Flip
 
-Hay muchas formas de controlar los argumentos de una función en JS, la idea del reto es que crear una función que reciba una función y la ejecute con los argumentos al revés.
+Hay muchas formas de controlar los argumentos de una función en JS, la idea del reto es crear una función que reciba una función como parámetro y la ejecute con los argumentos al revés.
 
 
 # Ejemplo
