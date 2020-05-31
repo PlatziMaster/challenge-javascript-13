@@ -4,7 +4,7 @@ function print(a,b,c) {
 
 function flip(fn) {
   return function(){
-    // your code
+    return fn.apply(null, Array.from(arguments).reverse())
   }
 }
 

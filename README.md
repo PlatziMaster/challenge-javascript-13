@@ -27,4 +27,4 @@ npm run test
 Debes hacer un "Fork" de este proyecto, revolver los problemas y crear un Pull Request hacia este repositorio.
 
 ### Licencia
-challenge-javascript-08 se lanza bajo la licencia [MIT](https://opensource.org/licenses/MIT).
+challenge-javascript-13 se lanza bajo la licencia [MIT](https://opensource.org/licenses/MIT).
