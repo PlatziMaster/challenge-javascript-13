@@ -3,8 +3,9 @@ function print(a,b,c) {
 }
 
 function flip(fn) {
-  return function(){
+  return function(a,b,c){
     // your code
+    return fn(c,b,a);
   }
 }
 
