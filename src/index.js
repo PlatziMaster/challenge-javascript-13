@@ -3,10 +3,6 @@ function print(a,b,c) {
 }
 
 function flip(fn) {
-  for (let index = 0; index < array.length; index++) {
-    const element = array[index];
-    
-  }
   return function(){
     return `${arguments[2]}->${arguments[1]}->${arguments[0]}`;
   }
