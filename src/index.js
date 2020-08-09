@@ -3,8 +3,8 @@ function print(a,b,c) {
 }
 
 function flip(fn) {
-  return function(){
-    // your code
+  return function(...number){
+    return fn(...number.reverse())
   }
 }
 
