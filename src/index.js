@@ -3,9 +3,8 @@ function print(a,b,c) {
 }
 
 function flip(fn) {
-  return function(...print){
-    return fn(...print.reverse())
-  }
+  return (...print) => fn(...print.reverse())
+  
 }
 
 const normalRta = print(1,2,3); // 1->2->3
