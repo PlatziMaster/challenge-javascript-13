@@ -4,7 +4,8 @@ function print(a,b,c) {
 
 function flip(fn) {
   return function(){
-    // your code
+    //toma los argumentos y los invertimos
+    return fn(...Object.values(arguments).reverse());
   }
 }
 
