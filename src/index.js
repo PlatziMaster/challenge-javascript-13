@@ -5,6 +5,7 @@ function print(a,b,c) {
 function flip(fn) {
   return function(){
     // your code
+    return fn(...Object.values(arguments).reverse());
   }
 }
 
