@@ -1,12 +1,8 @@
-function print(a,b,c) {
-  return `${a}->${b}->${c}`;
-}
+const print = (a,b,c) => `${a}->${b}->${c}`;
 
-function flip(fn) {
-  return function(){
-    // your code
+const flip = fn => function() {
+    return fn(...Array.from(arguments).reverse());
   }
-}
 
 const normalRta = print(1,2,3); // 1->2->3
 console.log(normalRta);
