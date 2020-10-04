@@ -4,6 +4,8 @@ function print(a,b,c) {
 
 function flip(fn) {
   return function(){
+    // Also can solve as:
+    // return fn(...Array.from(arguments).reverse())
     const a = [
       fn(arguments[0])[0],
       fn(arguments[1])[0],
